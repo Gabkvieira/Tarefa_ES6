@@ -50,13 +50,9 @@ alunos.push ({
     nota: 6.5
 })
 
-function filtraAlunosComNotaMaiorIgual6(aluno) {
-    return aluno.nota >= 6;
-}
+const filtraAlunosComNotaMaiorIgual6 = aluno => aluno.nota >= 6;
 
-const filtraAlunosComNotaMaiorIgual6_2 = aluno => aluno.nota >= 6;
-
-const alunosComNotaMaiorIgual6 = alunos.filter(filtraAlunosComNotaMaiorIgual6_2);
+const alunosComNotaMaiorIgual6 = alunos.filter(filtraAlunosComNotaMaiorIgual6);
 
 console.log(alunosComNotaMaiorIgual6);
 
